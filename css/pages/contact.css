@@ -1,0 +1,30 @@
+#section-contact
+{
+  padding-left: 30px;
+}
+
+#section-contact legend
+{
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+
+#section-contact input[type=submit]
+{
+  padding: 10px;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+#section-contact input[type=submit]:hover
+{
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: 1px 1px 1px dimgray;
+}

@@ -1,5 +1,11 @@
 /*GENERAL*/
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Dancing+Script');
+
+/*PAGES DU SITE*/
+@import url("pages/accueil.css");
+@import url("pages/recettes.css");
+@import url("pages/ingredients.css");
+@import url("pages/contact.css");
 
 body
 {
@@ -21,14 +27,21 @@ section
   left: 0;
   right: 0;
 }
+a
+{
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+}
 h1, h2
 {
+  text-align: center;
   font-weight: bold;
   font-size: 1.3em;
   color: darkblue;
   text-shadow: 1px 1px 1px gray;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 h2
 {
