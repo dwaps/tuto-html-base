@@ -5,8 +5,9 @@
 
 #section-contact legend
 {
+  color: #444;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 0.9em;
   padding-top: 18px;
   padding-bottom: 12px;
 }
@@ -14,7 +15,7 @@
 #section-contact input[type=submit]
 {
   padding: 10px;
-  background-color: cadetblue;
+  background-color: #538EB2;
   color: white;
   border: none;
   border-radius: 10px;
