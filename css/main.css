@@ -65,12 +65,14 @@ header
   width: 100%;
 }
   /*LOGO*/
-  #logo
+  #logo span
   {
     width: 150px;
     height: 80px;
     background-color: #000;
+    background: url('../img/logo.png') center no-repeat;
     position: absolute;
+    cursor: pointer;
   }
   /**/
 
