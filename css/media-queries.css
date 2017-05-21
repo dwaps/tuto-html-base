@@ -5,10 +5,26 @@
     padding: 0 !important;
     margin: 0 !important;
   }
-  #menu-principal ul li:first-child,
+  #menu-principal ul li:first-child
+  {
+    opacity: 0;
+  }
   #liens-externes
   {
-    display: none;
+    -webkit-transform: scale(0);
+       -moz-transform: scale(0);
+        -ms-transform: scale(0);
+         -o-transform: scale(0);
+            transform: scale(0);
+  }
+  #section-accueil,
+  #section-recettes,
+  #section-ingredients,
+  #section-contact
+  {
+    clear: both;
+    position: relative;
+    top: -190px;
   }
 }
 
@@ -21,6 +37,10 @@
   header
   {
     height: 0 !important;
+  }
+  #menu-principal ul li:first-child
+  {
+    opacity: 1;
   }
   #menu-principal ul li
   {
