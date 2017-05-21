@@ -14,6 +14,11 @@
 @import url("pages/ingredients.css");
 @import url("pages/contact.css");
 
+html
+{
+  background: url('../img/bg.jpg') center no-repeat;
+  background-size: cover;
+}
 body
 {
   max-width: 980px;
@@ -106,7 +111,7 @@ header
 {
   width: 100%;
   height: 230px;
-  background-color: #EEE;
+  background-color: rgba(125,125,125,0.5);
 }
 /**/
 
