@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px)
+{
+  body
+  {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #menu-principal ul li:first-child,
+  #liens-externes
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  body
+  {
+    overflow-x: hidden;
+  }
+  header
+  {
+    height: 0 !important;
+  }
+  #menu-principal ul li
+  {
+    display: inherit !important;
+    background-color: #B24F4F;
+    height: 30px;
+    width: 100% !important;
+  }
+  #menu-principal ul li a
+  {
+    display: block;
+    margin-top: 5px;
+  }
+  #slideshow
+  {
+    margin-top: 184px;
+  }
+}
+
+@media only screen and (max-width: 410px)
+{
+  #menu-principal ul li
+  {
+    text-align: right !important;
+  }
+  #menu-principal ul li a
+  {
+    padding-right: 25px;
+  }
+}

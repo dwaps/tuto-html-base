@@ -13,6 +13,7 @@
 @import url("pages/recettes.css");
 @import url("pages/ingredients.css");
 @import url("pages/contact.css");
+@import url("media-queries.css");
 
 body
 {
