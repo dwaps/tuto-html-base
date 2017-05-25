@@ -1,0 +1,13 @@
+#slideshow
+{
+  width: 100%;
+  height: 230px;
+  background-color: rgba(125,125,125,0.5);
+  background: url('../img/slideshow/slide8.jpg') center no-repeat;
+  background-size: cover;
+  -webkit-transition: background-image .25s ease-in-out;
+     -moz-transition: background-image .25s ease-in-out;
+      -ms-transition: background-image .25s ease-in-out;
+       -o-transition: background-image .25s ease-in-out;
+  box-shadow: 2px 2px 2px #222;
+}
