@@ -1,3 +1,11 @@
+@media only screen and (min-width: 769px)
+{
+  #section-contact
+  {
+    width: 50%;
+  }
+}
+
 @media only screen and (max-width: 768px)
 {
   body
@@ -25,6 +33,10 @@
     clear: both;
     position: relative;
     top: -190px;
+  }
+  #section-contact
+  {
+    width: 100%;
   }
 }
 

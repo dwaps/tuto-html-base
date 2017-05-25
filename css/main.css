@@ -120,16 +120,6 @@ header
   /**/
 /**/
 
-/*PAGES*/
-#section-accueil,
-#section-recettes,
-#section-ingredients,
-#section-contact
-{
-  z-index: -1;
-}
-/**/
-
 /*LIENS EXTERNES*/
 #liens-externes
 {
