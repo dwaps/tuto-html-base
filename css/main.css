@@ -99,8 +99,12 @@ header
       text-align: center;
       display: inline-block;
       text-transform: uppercase;
-      width: 100px;
       padding: 8px;
+    }
+    #menu-principal ul li a
+    {
+      display: block;
+      padding: 8px 25px;
     }
     #menu-principal ul li:hover
     {
@@ -123,6 +127,16 @@ header
 }
 /**/
 
+/*PAGES*/
+#section-accueil,
+#section-recettes,
+#section-ingredients,
+#section-contact
+{
+  z-index: -1;
+}
+/**/
+
 /*LIENS EXTERNES*/
 #liens-externes
 {
@@ -136,16 +150,11 @@ header
   line-height: 20px;
   text-align: right;
   background-color: #EEE;
-  -webkit-transition: opacity 0.25s ease-in-out,
-                      transform 0.25s ease-in-out;
-     -moz-transition: opacity 0.25s ease-in-out,
-                      transform 0.25s ease-in-out;
-      -ms-transition: opacity 0.25s ease-in-out,
-                      transform 0.25s ease-in-out;
-       -o-transition: opacity 0.25s ease-in-out,
-                      transform 0.25s ease-in-out;
-          transition: opacity 0.25s ease-in-out,
-                      transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+     -moz-transition: transform 0.25s ease-in-out;
+      -ms-transition: transform 0.25s ease-in-out;
+       -o-transition: transform 0.25s ease-in-out;
+          transition: transform 0.25s ease-in-out;
 }
 /**/
 
@@ -181,4 +190,4 @@ footer
   {
     text-align: left;
   }
-/*
+/**/
